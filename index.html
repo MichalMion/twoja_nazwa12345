@@ -1,31 +1,9 @@
-﻿<!DOCTYPE html>
-	<html lang="pl-PL">
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>Michał Mionskowski</title>
-	</head>
-	<body>
-	<p align="right"> <font color="blue" size="7" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="6" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="5" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="4" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="3" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="2" face="Arial"> Michał </font> </p> <br>
-	<p align="right"> <font color="blue" size="1" face="Arial"> Michał </font> </p> <br>
-	
-	<h6> Mionskowski </h6><br>
-	<h5> Mionskowski </h5><br>
-	<h4> Mionskowski </h4><br>
-	<h3> Mionskowski </h3><br>
-	<h2> Mionskowski </h2><br>
-	<h1> Mionskowski </h1><br>
-	
-	<p> <font color="blue" size="5" face="Times New Roman"> :o zdziwienie </font> </p> <br>
-	<p> <font color="green" size="3" face="Verdana"> :| Brak emocji </font> </p> <br>
-	<p> <font color="red" size="7" face=""> :D bardzo szeroki uśmiech </font> </p> <br>
-	<p> <font color="purple" size="4" face="Roboto"> :/ niezdecydowanie </font> </p> <br>
-	<p> <font color="brown" size="2" face="Open Sans"> :# zamknięte usta </font> </p> <br>
-	<p> <font color="black" size="6" face="Lato"> 8-) uśmiechająca się twarz z okularami </font> </p> <br>
-	</body>
-</html>
+<code> <table border=“1”> <caption>Lekarz</caption> <tr> <th><u>id_lekarza</u></th> <th>imię</th> <th>nazwisko</th> <th>specjalizacja</th> <th>telefon</th> <th>email</th> </tr> <tr> <td>1</td> <td>Anna</td> <td>Kowalska</td> <td>pediatra</td> <td>123456789</td> <td>anna.kowalska@przychodnia.pl</td> </tr> <tr> <td>2</td> <td>Marek</td> <td>Nowak</td> <td>kardiolog</td> <td>987654321</td> <td>marek.nowak@przychodnia.pl</td> </tr> <!-- więcej rekordów --> </table>
+
+<table border=“1”> <caption>Pacjent</caption> <tr> <th><u>id_pacjenta</u></th> <th>imię</th> <th>nazwisko</th> <th>adres</th> <th>telefon</th> <th>email</th> </tr> <tr> <td>1</td> <td>Jan</td> <td>Nowak</td> <td>ul. Kwiatowa 1, 00-000 Warszawa</td> <td>111222333</td> <td>jan.nowak@gmail.com</td> </tr> <tr> <td>2</td> <td>Maria</td> <td>Kowalska</td> <td>ul. Słoneczna 2, 11-111 Radom</td> <td>444555666</td> <td>maria.kowalska@yahoo.com</td> </tr> <!-- więcej rekordów --> </table>
+
+<table border=“1”> <caption>Wizyta</caption> <tr> <th><u>id_wizyty</u></th> <th><em>id_lekarza</em></th> <th><em>id_pacjenta</em></th> <th>data</th> <th>godzina</th> <th>gabinet</th> </tr> <tr> <td>1</td> <td>1</td> <td>2</td> <td>2023-09-28</td> <td>10:00</td> <td>1</td> </tr> <tr> <td>2</td> <td>2</td> <td>1</td> <td>2023-09-28</td> <td>11:00</td> <td>2</td> </tr> <!-- więcej rekordów --> </table>
+
+<table border=“1”> <caption>Diagnoza</caption> <tr> <th><u>id_diagnozy</u></th> <th><em>id_wizyty</em></th> <th>choroba</th> <th>zalecenia</th> </tr> <tr> <td>1</td> <td>1</td> <td>zapalenie ucha</td> <td>antybiotyk, krople, kontrola po tygodniu</td> </tr> <tr> <td>2</td> <td>2</td> <td>nadciśnienie</td> <td>leki obniżające ciśnienie, dieta, ćwiczenia</td> </tr> <!-- więcej rekordów --> </table>
+
+<table border=“1”> <caption>Historia choroby</caption> <tr> <th><u>id_historii</u></th> <th><em>id_pacjenta</em></th> </tr> <tr> <td>1</td> <td>1</td> </tr> <tr> <td>2</td> <td>2</td> </tr> <!-- więcej rekordów --> </table> </code>
